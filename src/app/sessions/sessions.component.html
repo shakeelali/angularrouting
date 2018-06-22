@@ -1,0 +1,14 @@
+<div *ngFor="let session of sessions">
+
+  <label>{{session.title}} - {{session.description}}</label>
+
+  &nbsp;
+  &nbsp;
+  &nbsp;
+
+  <a routerLink="/{{coursedisplay}}/{{session.display}}" class="btn btn-primary">View Session Content</a>
+
+  <br/>
+  <br/>
+  <br/>
+</div>
